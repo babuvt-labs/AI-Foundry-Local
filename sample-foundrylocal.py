@@ -4,7 +4,7 @@ pip install openai
 import openai
 from foundry_local import FoundryLocalManager
 
-# By using an alias, the most suitable model will be downloaded
+# By using an alia, the most suitable model will be downloaded
 # to your end-user's device.
 alias = "phi-3.5-mini"
 
@@ -13,6 +13,7 @@ alias = "phi-3.5-mini"
 manager = FoundryLocalManager(alias)
 
 # The remaining code us es the OpenAI Python SDK to interact with the local model.
+#yes
 
 # Configure the client to use the local Foundry service
 client = openai.OpenAI(
